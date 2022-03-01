@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: 100%;
+  }
+  header div:first-child {
+    margin: auto;
+    padding: 10px;
+  }
+  header div:last-child {
+    border-top: 1px solid #dbdbdb;
+    width: 100%;
+    background-color: beige;
+  }
+  header div:last-child > ul li {
+    margin: auto;
+  }
+  .section-1 div h2 {
+    font-size: 1.8rem;
+    max-width: 400px;
+  }
+  .section-1 div button {
+    padding: 15px 30px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

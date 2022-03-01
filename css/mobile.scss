@@ -1,0 +1,36 @@
+@media(max-width:900px){
+    header{
+        flex-direction: column;
+        max-height: 100%;
+        div:first-child{
+            margin: auto;
+            padding: 10px;
+        }
+        div:last-child{
+            border-top: 1px solid rgb(219, 219, 219);
+            width: 100%;
+            background-color: beige;
+            & > ul{
+                li{
+                    margin: auto;
+
+                }
+            }
+        }
+        
+        
+    }
+    .section-1{
+        div{
+            h2{
+                font-size: 1.8rem;
+                max-width: 400px;
+            }
+            button{
+                padding: 15px 30px;
+            }
+        }
+        
+    }
+
+}

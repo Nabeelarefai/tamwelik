@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 100px;
+}
+
+header div:first-child {
+  padding: 20px;
+  margin-right: 100px;
+}
+
+header div:first-child h1 {
+  font-size: 40px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header div:first-child h1 a {
+  color: black;
+}
+
+header div:first-child h1 a:hover {
+  color: gray;
+}
+
+header div:last-child > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div:last-child > ul li {
+  padding: 20px;
+  margin-left: 100px;
+}
+
+header div:last-child > ul li a {
+  font-size: 25px;
+  color: blue;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header div:last-child > ul li a:hover {
+  color: #0062ff;
+}
+
+.section-1 {
+  background-image: url("./img/1.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.section-1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #070707d1;
+}
+
+.section-1 div h2 {
+  color: white;
+  margin: 10px;
+  font-size: 2.5rem;
+  line-height: 50px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.section-1 div button {
+  background-color: #2fa1ff;
+  padding: 20px 60px;
+  border: none;
+  font-size: 30px;
+  margin: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.section-1 div button a {
+  color: wheat;
+}
+
+.section-1 div button:hover {
+  background-color: green;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-2 div {
+  text-align: center;
+  margin: 20px;
+  padding: 50px 20px;
+  background-color: ghostwhite;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 350px;
+}
+
+.section-2 div:hover {
+  background-color: beige;
+  border: 1px solid gray;
+}
+
+.section-2 div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.section-2 div h1 {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.section-2 div p {
+  margin: 20px;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.product {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  color: blue;
+}
+
+.section-3 {
+  text-align: center;
+  background-color: #e1ffb5;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.section-3 h1 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.section-3 p {
+  margin: 20px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #2e2e2e;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.buttom-bar {
+  position: relative;
+}
+
+.buttom-bar div a:first-child {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttom-bar div a:last-child {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
